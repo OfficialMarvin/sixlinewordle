@@ -1,0 +1,2 @@
+import urllib.request,random
+print(list(urllib.request.urlopen('https://minecraftskinstealer.com/api/v1/skin/download/bust/'+input("user: ")).read().decode('utf-8').split())[random.randint(0,5756)])
